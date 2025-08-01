@@ -1,13 +1,15 @@
 package com.TominoCZ.FBP.util;
 
+import com.TominoCZ.FBP.Tags;
+
 import java.net.URI;
 import java.net.URISyntaxException;
 
 public class ModReference {
 
-    public static final String MOD_ID = "fbp";
-    public static final String MOD_NAME = "Fancier Block Particles";
-    public static final String VERSION = "0.7";
+    public static final String MOD_ID = Tags.MOD_ID;
+    public static final String MOD_NAME = Tags.MOD_NAME;
+    public static final String VERSION = Tags.VERSION;
     public static final URI ISSUE;
 
     static {
